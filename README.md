@@ -61,9 +61,8 @@ Then on your `pom.xml`
             <enabled>false</enabled>
         </releases>
     </repository>
-</repositories>
 ```
-
+### Troubleshooting If you face "Tag mismatch" errors, run: mvn clean install -DskipTests -U
 ## Examples
 
 ## Authentication
